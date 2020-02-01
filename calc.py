@@ -42,10 +42,10 @@ import numpy
 
 triangle_area_1 = 0
 triangle_area_2 = 0
-l1 = 6.3
-l2 = 15.2
-l3 = 10.2
-l4 = 13.2
+l1 = 4
+l2 = 2
+l3 = 3
+l4 = 3.2
 
 minimum_length = abs(l1 - l2)
 maximum_length = l1 + l2
@@ -262,13 +262,13 @@ print('area:    ', quadrilateral_area)
 #
 # print(l1, '     ', l2, ' ', l3, ' ', l4)
 
-l1 = 6.3
-l2 = 15.2
-l3 = 10.2
-l4 = 13.2
-s = (l1 + l2 + 17) / 2
-heron = math.sqrt(s * (s - l1) * (s - l2) * (s - 17))
-s = (l3 + l4 + 17) / 2
-heron1 = math.sqrt(s * (s - l3) * (s - l4) * (s - 17))
+l1 = 4
+l2 = 2
+l3 = 3
+l4 = 3.2
+s = (l1 + l2 + 4.6) / 2
+heron = math.sqrt(s * (s - l1) * (s - l2) * (s - 4.6))
+s = (l3 + l4 + 4.6) / 2
+heron1 = math.sqrt(s * (s - l3) * (s - l4) * (s - 4.6))
 
 print('aa', heron + heron1)
